@@ -27,7 +27,7 @@ const Header = () => {
                     <Toolbar>
 
                         <Typography onClick={() => navigate('/')} className="title" sx={{ fontFamily: 'Montserrat', fontWeight: 'bold' }}>
-                            Crypto Tracker
+                            Super Crypto Tracker
                         </Typography>
 
                         <Select 

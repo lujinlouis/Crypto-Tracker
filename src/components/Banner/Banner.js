@@ -27,7 +27,7 @@ const Banner = () => {
                             marginBottom: 15,
                             fontFamily: "Montserrat"    
                         }}>
-                        Crypto Tracker
+                        Super Crypto Tracker
                     </Typography>
                     <Typography
                     variant='subtitle2'
