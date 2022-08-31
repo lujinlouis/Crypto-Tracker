@@ -2,6 +2,7 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Alert from './components/Authentication/Alert';
 import Header from './components/Header';
 import CoinPage from './Pages/CoinPage';
 import Homepage from './Pages/Homepage';
@@ -18,6 +19,7 @@ function App() {
           <Route path='coins/:id' element={<CoinPage />} />
         </Routes>
       </div>
+      <Alert />
     </BrowserRouter>
   );
 }
